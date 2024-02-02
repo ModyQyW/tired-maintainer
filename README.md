@@ -1,64 +1,66 @@
-# Notes from a tired maintainer
+# 一位疲惫的维护者的笔记
 
-Hi. You might have come across this text either because you found it somehow or with a link, perhaps in a closed Pull-Request (PR) Issue or a chat. If you are coming from a closed issue or PR, before everything THANK YOU for your contributions and help, i do appreciate that ❤️
+[English Version](https://github.com/pi0/tired-maintainer)
 
-The thing is, maintaining multiple open-source projects is not as easy as you might imagine.  As a full-time open-source maintainer, I roughly receive more than 200 notifications every 12 hours plus random messages and all are expected to be responded to. They often come from completely different people with different contexts, skill levels, priorities concerns, and so on. 
+你可能已经看到了这篇文章，或者是因为你通过某种方式找到了它，或者是通过链接，也许是在一个已关闭的拉取请求（PR）、问题（Issue）或聊天中。如果你来自一个已关闭的问题或 PR，那么首先要感谢你的贡献和帮助，我非常感激 ❤️。
 
-I understand that you face issues that are important enough for you to come to GitHub and attempt to report to fix them. And I know that you might:
+问题是，维护多个开源项目并不像你想象的那么容易。 作为一名全职的开源项目维护者，我每 12 小时就会收到 200 多条通知和随机信息，而且所有通知和信息都需要回复。这些信息往往来自完全不同的人，他们的背景、技能水平、关注的重点等等都不尽相同。
 
-- Want a feature to be landed
-- Want a bug to be resolved
-- Want your PR to be reviewed or released
-- Want to have updates and followups for something
-- Want to contribute and waiting for the maintainer’s update
+我知道你们面临的问题很重要，足以让你们来到 GitHub 并尝试报告以修复它们。我也知道你们可能会
 
-Above, are the responsibilities of the maintainers of course but we have a limited capacity. Please understand that your request while could be undoubtedly super important for you, is not the only one to be addressed. Sometimes scope of an issue that seems small to you is much higher than you imagine and even for explaining it **costs time and focus**.
+- 希望某个功能能够上线
+- 希望解决一个 bug
+- 希望你的 PR 得到审核或发布
+- 希望得到更新和跟进
+- 希望做出贡献并等待维护者的更新
 
-## Context Switch is EXPENSIVE (for humans and also machines)
+以上当然是维护者的责任，但我们的能力有限。请理解，你的请求对你来说无疑是超级重要的，但它并不是唯一需要解决的问题。有时，在你看来很小的问题，其范围却比你想象的要大得多，即使是解释问题也**耗费时间和精力**。
 
-I suggest reading [managing the chaos of context switching](https://leaddev.com/process/managing-chaos-context-switching) article by [Addy Osmani](**https://twitter.com/addyosmani) to grasp some context.
+## 上下文切换是昂贵的（对人类和机器都是如此）
 
-Sometimes you might think answering or fixing something takes only a couple of minutes. I understand and want to answer you as soon as possible but this cost me significantly and kills my daily productivity and focus if have to do this for your request. Everyone's needs are important to me and I need to prioritize based on common sense and real merits.
+我建议阅读 [Addy Osmani](**https://twitter.com/addyosmani) 撰写的 [管理上下文切换的混乱 managing the chaos of context switching](https://leaddev.com/process/managing-chaos-context-switching) 一文，以掌握一些上下文。
 
-## This PR looks good to me (or tell me what to do)
+有时，你可能会认为回答或修复问题只需要几分钟。我理解你的想法，也希望尽快回复你，但如果为了你的要求而不得不这样做，我的成本就会大大增加，也会降低我的日常工作效率和专注度。对我来说，每个人的需求都很重要，我需要根据常识和实际情况来确定优先顺序。
 
-You or someone else might have already gone ahead and attempted to propose an enhancement or fix and you see the PR which looks good overall to you still pending. Even the maintainer or others (while they really shouldn’t!) might have approved the PR partially or fully. And you see it is still not merged. Here are some possible reasons for it:
+## 我觉得这个 PR 不错（或告诉我该怎么做）
 
-- The code quality is not acceptable enough and the maintainer is trying to be “polite” and not discouraging the author
-- The PR while addressing one specific thing, is not compatible with the whole project's goals
-- The PR needs more thorough testing and extended validation
-- The maintainer needs to “Think” about the changes
-- The maintainer is simply busy with other priorities
+你或其他人可能已经开始尝试提出改进或修复建议，但你看到对你来说整体看起来不错的 PR 仍在等待处理。甚至维护者或其他人（虽然他们真的不应该！）也可能已经部分或全部批准了 PR。而你却发现它仍未被合并。以下是一些可能的原因：
 
-In all cases, please BE PATIENT. Be sure that maintainers love nothing more than triaging PRs and moving them forward. Please understand that making decisions in a project is not as easy as you might think. Most of the time there is more context that you might be less aware of.
+- 代码质量不够好，维护者想“礼貌”一点，不要打击作者的积极性
+- 该 PR 虽然只针对一个具体问题，但与整个项目的目标不符
+- PR 需要更彻底的测试和扩展验证
+- 维护者需要对修改进行“思考”
+- 维护者忙于其他优先事项
 
-Finally, If something is critical for you and you believe you can accept these changes at your / your user's risk, you can use solutions like [patch-package](https://www.npmjs.com/package/patch-package) to manually apply them.
+无论如何，请耐心等待。请相信，维护者最喜欢的事情就是分流 PR 并将其向前推进。请理解，在项目中做决定并不像你想象的那么容易。大多数情况下，你可能不太了解更多的背景情况。
 
-## I want to contribute tell me what to do
+最后，如果某些改动对你至关重要，而且你认为自己可以接受这些改动，但你/你的用户需要承担风险，那么你可以使用 [patch-package](https://www.npmjs.com/package/patch-package) 等解决方案手动应用这些改动。
 
-That is awesome! Nothing is feeling better than having contributions coming to OSS projects. 
+## 我想作出贡献，告诉我该怎么做
 
-When I feel a task can accept contributions, I will tend to provide more details as much as possible and as time allows. If you see an issue like this, you are more than welcome to help but please make sure to follow those comments strictly and if disagree, discuss before attempting the changes. If there is no explicit answer from the maintainer, please remain patient and also if the Issue is explicitly not open to contributions, it means it is simply not! 
+太棒了！没有什么比为开放源码软件项目做出贡献更好的事了。
 
-Please understand that contributions always require two collaborative sides. Otherwise, while you might be aiming for something good and willing to help, you might slow things down as a result. 
+当我觉得一项任务可以接受贡献时，我会尽可能在时间允许的情况下提供更多细节。如果你看到这样的问题，我们非常欢迎你提供帮助，但请务必严格遵守这些意见，如有异议，请在尝试修改前进行讨论。如果维护者没有明确答复，请保持耐心；如果该问题明确表示不接受贡献，则表示它根本不开放！
 
-Collaboration only makes sense when the cost is **≤** time cost by the author to address.
+请理解，贡献总是需要双方的合作。否则，虽然你的目标可能是好的并愿意提供帮助，但你可能会因此而拖慢工作进度。
 
-## So I will ping you as much as I can
+只有当作者处理问题的成本 **≤** 时间成本时，合作才有意义。
 
-Please don't. It does not help and can lead to finally your request being intentionally delayed, ignored, marked as spam, or closed. But always don't assume your request is delayed intentionally, by default it certainly is not delayed!
+## 所以我会尽可能多地与你联系
 
-## So how can I help
+请不要这样。这样做没有任何帮助，最终可能导致你的请求被故意延迟、忽略、标记为垃圾邮件或关闭。但千万不要认为你的请求是被故意延迟的，默认情况下它肯定不会被延迟！
 
-Please be patient and understanding about how [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) works. 
+### 我能帮上什么忙？
 
-Please try to give better context to the maintainers when communicating:
+请耐心理解 [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) 的工作方式。
 
-- Why something is important and needs to be prioritized
-- Why do you think something should be done in a specific way?
+在沟通时，请尽量为维护者提供更好的背景信息：
 
-Finally, if you want to contribute to the code or follow up on a PR, please align with the maintainer to minimize the collaboration cost. Please keep your PRs limited to one clear fix also, respecting project conventions and code style.
+- 为什么某些事情很重要并需要优先处理
+- 为什么你认为应该以特定的方式完成某件事？
 
-## Final notes
+最后，如果你想贡献代码或跟进 PR，请与维护者保持一致，以尽量减少合作成本。此外，请将你的 PR 限制为一个明确的修复，并尊重项目惯例和代码风格。
 
-Coming from an already delayed issue or PR to these notes is probably not pleasant (nor for me) but unless there is not a mutual awareness of how open source works and what is like to be a maintainer, we cannot make things better, together.
+## 最后说明
+
+从一个已经延迟的问题或 PR 到这些注意事项可能并不令人愉快（对我来说也是如此），但除非我们对开源如何运作以及作为维护者的感受缺乏共同的认识，否则我们无法一起把事情做得更好。
